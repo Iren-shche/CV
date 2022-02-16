@@ -95,6 +95,7 @@ body {
 }
 a {
   color: white;
+  text-decoration: none;
 }
 /* ************************** EDUCATION BLOCK ********************** */
 .block_education {
