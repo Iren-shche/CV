@@ -225,6 +225,7 @@ h2 {
 .columnleft {
   width: 110%;
   padding-left: 20px;
+  max-width: 212px;
 }
 .job {
   text-transform: uppercase;
