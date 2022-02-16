@@ -93,6 +93,9 @@ body {
   margin: 0;
   padding-right: 25px;
 }
+a {
+  color: white;
+}
 /* ************************** EDUCATION BLOCK ********************** */
 .block_education {
   background-color: rgb(70, 70, 70);
