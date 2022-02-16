@@ -1,0 +1,266 @@
+body {
+  min-width: 1000px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 100%;
+  font-weight: normal;
+}
+.main_container {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.leftcolumn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 35%;
+}
+.rightcolumn {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  max-width: 100%;
+  flex-grow: 1;
+  border-right: 2px solid rgb(46, 46, 46);
+}
+
+/* ************************** PHOTO BLOCK ********************** */
+.photo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.blockProfessionalProfile {
+  background: rgba(233, 180, 7, 0.611);
+  display: flex;
+  flex-direction: row-reverse;
+  height: 110px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.textProfessionalProfile {
+  text-align: right;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: white;
+  padding: 0 20px;
+  margin: auto 0px;
+}
+/* ************************** CONTACT BLOCK ********************** */
+.block {
+  background-color: rgb(46, 46, 46);
+  box-sizing: border-box;
+  padding: 25px 25px 0 0;
+  margin: 0;
+  color: white;
+}
+.header {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgba(233, 180, 7);
+  text-align: right;
+  border-bottom: 2px solid rgba(233, 180, 7);
+  margin-bottom: 20px;
+}
+.icon_img img {
+  width: 40px;
+  height: 40px;
+}
+.stroke {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 15px;
+}
+.stroke div {
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto 0;
+}
+.stroke h3 {
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0;
+  padding-right: 25px;
+}
+.stroke p {
+  text-align: right;
+  font-size: 15px;
+  margin: 0;
+  padding-right: 25px;
+}
+/* ************************** EDUCATION BLOCK ********************** */
+.block_education {
+  background-color: rgb(70, 70, 70);
+  box-sizing: border-box;
+  margin: 0;
+  color: white;
+}
+.head_line_education {
+  width: 100%;
+  background-color: rgba(233, 180, 7);
+  text-align: right;
+  padding: 20px 0 20px 0;
+}
+.header_aducation {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  font-weight: 150%;
+  padding-right: 25px;
+}
+.text_aducation {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.text_aducation div {
+  margin-top: 25px;
+}
+.text_aducation h3 {
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0;
+  padding-right: 25px;
+}
+.text_aducation p {
+  text-align: right;
+  font-size: 13px;
+  margin: 0;
+  padding-right: 25px;
+}
+
+/* ************************** TECHNICAL SKILLS ********************** */
+.technicalskills_block {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 15px;
+}
+table {
+  text-align: right;
+}
+tr {
+  margin: auto 0;
+}
+td {
+  padding: 5px 0;
+}
+td img {
+  padding-right: 20px;
+}
+.scale {
+  width: 90px;
+}
+
+/* ************************** HEAD BLOCK ********************** */
+.head_block {
+  display: flex;
+  flex-direction: column;
+}
+.name_professional_adress {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 140px 0 0 60px;
+}
+.profession {
+  font-size: 25px;
+  text-transform: uppercase;
+  background-color: black;
+  color: rgba(233, 180, 7);
+  padding: 10px 0px 10px 10px;
+  margin: 0 0 0 60px;
+}
+.city {
+  font-size: 17px;
+  padding: 5px 0 62px 60px;
+}
+.about {
+  background: rgba(233, 180, 7, 0.796);
+  height: 110px;
+  display: flex;
+  padding: 15px 20px 15px 40px;
+  position: relative;
+  word-break: break-word;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  font-size: 100%;
+  color: white;
+}
+/* ************************** PROFESSIONAL EXPIRIENCE ********************** */
+.prof_expirience {
+  font-size: 100%;
+  font-weight: normal;
+  margin: 0;
+  display: inline-block;
+  padding: 0 0px 15px 15;
+}
+h2 {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  margin: 0 0px 60px 40px;
+  text-transform: uppercase;
+}
+.columns {
+  display: flex;
+  flex-direction: row;
+  margin: 0 20px;
+}
+.columnleft {
+  width: 110%;
+  padding-left: 20px;
+}
+.job {
+  text-transform: uppercase;
+  border-right: 2px solid black;
+}
+.job h3 {
+  margin: 0;
+  font-size: 100%;
+  font-weight: bold;
+}
+.job p {
+  font-size: 100%;
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+.company {
+  border-right: 2px solid black;
+}
+.company h3 {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 100%;
+  font-weight: bold;
+}
+.company p {
+  margin: 0;
+  padding-bottom: 180px;
+  font-size: 100%;
+}
+.duties {
+  padding: 0 0px 0 15px;
+  font-size: 95%;
+}
+.duties p {
+  margin: 0;
+}
+.duties p {
+  font-weight: bold;
+}
+.duties ul {
+  padding-bottom: 38px;
+}
